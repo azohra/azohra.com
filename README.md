@@ -1,2 +1,4 @@
 ![logo](_static/logos/azohra.gif)
-Font: https://fonts.google.com/specimen/Fauna+One
+
+Old Font: https://fonts.google.com/specimen/Fauna+One
+New Font: https://www.typewithpride.com/
