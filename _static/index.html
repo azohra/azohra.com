@@ -23,23 +23,37 @@
 <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
 <head>
     <style>
-        .logo {
-      border-radius: 8px;
-      width: 35%;
-      height:auto;
-      min-height: 10em;
-      display: table-cell;
-      vertical-align: middle;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-  }
+      .column {
+        float: left;
+        width: 33.33%;
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      .logo {
+        border-radius: 8px;
+        width: 35%;
+        height:auto;
+        min-height: 10em;
+        display: table-cell;
+        vertical-align: middle;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
       </style>  
 </head>
 <body>
-<div>
-  <img class= "logo" src="logos/black.png">
-</div>
+  <div class="row">
+    <div class="column"><img class= "logo" src="logos/black.png"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+  </div> 
 </body>
 </html>
