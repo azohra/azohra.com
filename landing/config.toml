@@ -23,6 +23,6 @@ links = [
 name = ""
 
 [extra.theme]
-background = "#6FCDBD"
+background = "#0000"
 foreground = "#FFF"
 hover = "#333"
